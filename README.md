@@ -195,7 +195,6 @@ By combining:
 	•	temporal dynamics
 	•	theoretical benchmarks
 
-it provides a comprehensive framework to study polarization and echo chambers in social systems.
 
 ⸻
 
