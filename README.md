@@ -9,23 +9,6 @@ The analysis combines data collection, network construction, and multi-level met
 
 ⸻
 
-📁 Project Structure
-
-├── Crawling_network.ipynb       # Data collection using Reddit API (PRAW)
-├── daily_graphs.ipynb           # Construction of daily interaction networks
-├── network_analysis.ipynb       # Network metrics and model comparison
-
-├── seed_homes_dynamic.csv       # Activity in political "home" communities
-├── arena_activity_dynamic.csv   # Cross-community interactions
-├── labels_homes.csv             # User → ideological label (majority rule)
-├── combined_dynamic.csv         # Final merged dataset
-
-├── daily_graphs/                # Daily graphs in GEXF format
-├── network_report.csv           # Global metrics + ER/BA comparison
-├── home_label_metrics_daily.csv # Temporal polarization metrics
-
-
-⸻
 
 Note on Crawling Time Windows
 
@@ -40,7 +23,7 @@ This choice ensures:
 
 ⸻
 
-🔄 Pipeline Overview
+Pipeline Overview
 
 1. Data Collection
 
@@ -162,14 +145,13 @@ This enables a dynamic view of polarization.
 
 ⸻
 
-🎯 Research Questions
+Research Questions
 	•	Do ideological groups form well-separated communities?
 	•	How does polarization evolve over time?
 	•	Are interactions mostly within-group or cross-group?
 
 ⸻
-
-🧪 Technologies Used
+ Technologies Used
 	•	Python
 	•	NetworkX
 	•	Pandas
@@ -178,8 +160,7 @@ This enables a dynamic view of polarization.
 	•	PRAW (Reddit API)
 
 ⸻
-
-🚀 How to Run
+ How to Run
 	1.	Set your Reddit API credentials:
 
 os.environ["REDDIT_CLIENT_ID"] = "your_id"
@@ -189,13 +170,13 @@ os.environ["REDDIT_CLIENT_SECRET"] = "your_secret"
 
 	•	Crawling_network.ipynb
 	•	network_analysis.ipynb
-  •	daily_graphs.ipynb
+    •	daily_graphs.ipynb
 
 	3.	Outputs will be generated automatically (CSV + GEXF files)
 
 ⸻
 
-📊 Outputs
+Outputs
 	•	network_report.csv
 → Global network metrics and comparison with ER/BA models
 	•	home_label_metrics_daily.csv
@@ -205,7 +186,7 @@ os.environ["REDDIT_CLIENT_SECRET"] = "your_secret"
 
 ⸻
 
-📌 Final Remarks
+Final Remarks
 
 This project follows a data-driven network science approach to analyze online political interaction.
 
@@ -218,7 +199,7 @@ it provides a comprehensive framework to study polarization and echo chambers in
 
 ⸻
 
-👤 Author
+Author
 
 Giuliano Gelsomino
 Data Science / Social Network Analysis Project
